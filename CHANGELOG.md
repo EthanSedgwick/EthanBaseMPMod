@@ -13,7 +13,7 @@ This file uses the date format of YYYY-MM-DD.
 ### Added
 - Added Ethan Leaders
   - Takes the PUIR approach of splitting attack and defense into separate columns, and adding colours to good leaders while retaining Vanilla leader distribution
-  - Added Peanuts Map Mod and Blue Interface Borders Graphics Packs
+- Added Peanuts Map Mod and Blue Interface Borders Graphics Packs
 
 
 ### Changed
