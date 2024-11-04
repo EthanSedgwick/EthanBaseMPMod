@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
-## [0.1] - yyyy-mm-dd
+## [0.1] - UNRELEASED yyyy-mm-dd
  
  
 ### Added
@@ -24,33 +24,35 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - NAVAL_COMBAT_STACKING_TARGET_SELECT **0.2 -> 0.3** :chart_with_upwards_trend:
   - NAVAL_COMBAT_MAX_TARGETS **6 -> 4** :chart_with_downwards_trend:
   <br /><sup>Makes larger navies of low quality less effective against smaller navies of lower quality. Incentivises high tier ships.</sup>
+  
+  Naval changes not yet implemented
 
 
 **War**
-- TWS_CB_LIMIT_DEFAULT **100 -> 75** :chart_with_downwards_trend:
-<br /><sup>Makes it so players cannot win wars just from ticking war score, you must also be winning via other factors by atleast 25%.</sup>
-- MOBILIZATION_SPEED_RAILS_MULT **3.0 -> 3.5** :chart_with_upwards_trend: 
-<br /><sup>Small buff to high tech nations / Railroads</sup>
-- Gas changes
-  - Defines GAS_ATTACK_MODIFIER **3 -> 1**
-  <br /><sup>Reintroduces randomness to Gas and Gas defense by nerfing its overall impact, allowing Gas to be relevant again.</sup>
-  - Invention
-    - Gas Attack discover chance if at war **0 -> 5%** :new:
-    - Gas Defense discover chance if at war with someone with gas attack **5 -> 11%** :chart_with_upwards_trend:
-- Forts activate at Strategic Mobility instead of Post Napoleonic Thought
-- Infiltration does not award a fort level
-- Steamers technology unlocks **1836 -> 1840**
-- Iron Steamers technology unlocks **1860 -> 1855**
-- Oil Driven Ships technology unlocks **1919 -> 1914**
-- Mobilization *Economy* Impact added to Jingoism idea 0 -> 25% :new:
-- Mobilization Impact from Jingoism reduced from **400% -> 20%** :chart_with_downwards_trend:
-- Mobilization Impact from Pro Military reduced from **300% -> 10%**  :chart_with_downwards_trend:
-- Mobilization Impact removed from Anti Military and Pacifism :x:
-- Mobilization Impact added to Equality National value of **65%** :new:
-- Mobilization Impact added to Order National value of **100%** :new:
-- Mobilization Impact added to Liberty National value of **200%** :new:
-- Mobilization *Economy* Impact increased for Liberty National value **0.75 -> 2.25** :chart_with_upwads_trend:
-- Added Mobilization Impact increases to the Light Armament line of tech :new:
+  - TWS_CB_LIMIT_DEFAULT **100 -> 75** :chart_with_downwards_trend:
+  <br /><sup>Makes it so players cannot win wars just from ticking war score, you must also be winning via other factors by atleast 25%.</sup>
+  - MOBILIZATION_SPEED_RAILS_MULT **3.0 -> 3.5** :chart_with_upwards_trend: 
+  <br /><sup>Small buff to high tech nations / Railroads</sup>
+  - Gas changes
+    - Defines GAS_ATTACK_MODIFIER **3 -> 1**
+    <br /><sup>Reintroduces randomness to Gas and Gas defense by nerfing its overall impact, allowing Gas to be relevant again.</sup>
+    - Invention
+      - Gas Attack discover chance if at war **0 -> 5%** :new:
+      - Gas Defense discover chance if at war with someone with gas attack **5 -> 11%** :chart_with_upwards_trend:
+  - Forts activate at Strategic Mobility instead of Post Napoleonic Thought
+  - Infiltration does not award a fort level
+  - Steamers technology unlocks **1836 -> 1840**
+  - Iron Steamers technology unlocks **1860 -> 1855**
+  - Oil Driven Ships technology unlocks **1919 -> 1914**
+  - Mobilization *Economy* Impact added to Jingoism idea 0 -> 25% :new:
+  - Mobilization Impact from Jingoism reduced from **400% -> 20%** :chart_with_downwards_trend:
+  - Mobilization Impact from Pro Military reduced from **300% -> 10%**  :chart_with_downwards_trend:
+  - Mobilization Impact removed from Anti Military and Pacifism :x:
+  - Mobilization Impact added to Equality National value of **65%** :new:
+  - Mobilization Impact added to Order National value of **100%** :new:
+  - Mobilization Impact added to Liberty National value of **200%** :new:
+  - Mobilization *Economy* Impact increased for Liberty National value **0.75 -> 2.25** :chart_with_upwads_trend:
+  - Added Mobilization Impact increases to the Light Armament line of tech :new:
 
 
 **Diplomacy**
@@ -121,6 +123,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: 
   <br /><sup>AI base stubbornness to refuse peace.</sup>
   - Pacifism now gives **-0.05** infamy monthly :new:
-  - Disabled pops from building new factories or opening closed factories via economic policy rules :x:
+
+
+
+
+### Removed
   - Disabled Newspapers :x:
-  - Disabled Crises :x:
+  - Disabled Crises :x:#
+  - Disabled pops from building new factories or opening closed factories via economic policy rules :x:
