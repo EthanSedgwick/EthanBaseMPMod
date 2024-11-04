@@ -14,46 +14,46 @@ straightforward as possible.
 ### Added
 - Added Ethan Leaders
   - Takes the PUIR approach of splitting attack and defense into separate columns, and adding colours to good leaders while retaining Vanilla leader distribution
-  - Adds Peanuts Map Mod and the Blue Interface Borders Graphical Mod
+  - 
 
  
 ### Changed
 **Navy rework**
 - Defines
-  - NAVAL_BASE_SUPPLY_SCORE_BASE 10 > 2,
+  - NAVAL_BASE_SUPPLY_SCORE_BASE **10 > 2**,
   <br /><sup>Makes supply much scarcer, allowing heavy ships to be significantly buffed</sup>
-  - NAVAL_COMBAT_STACKING_TARGET_CHANGE: 0.03 -> 0.1 :chart_with_upwards_trend:
-  - NAVAL_COMBAT_STACKING_TARGET_SELECT: 0.2 -> 0.3 :chart_with_upwards_trend:
-  - NAVAL_COMBAT_MAX_TARGETS: 6 -> 4 :chart_with_downwards_trend:
+  - NAVAL_COMBAT_STACKING_TARGET_CHANGE **0.03 -> 0.1** :chart_with_upwards_trend:
+  - NAVAL_COMBAT_STACKING_TARGET_SELECT **0.2 -> 0.3** :chart_with_upwards_trend:
+  - NAVAL_COMBAT_MAX_TARGETS **6 -> 4** :chart_with_downwards_trend:
   <br /><sup>Makes larger navies of low quality less effective against smaller navies of lower quality. Incentivises high tier ships.</sup>
 
   
 
 
 **War**
-- TWS_CB_LIMIT_DEFAULT: 100 -> 75 :chart_with_downwards_trend:
+- TWS_CB_LIMIT_DEFAULT **100 -> 75** :chart_with_downwards_trend:
 <br /><sup>Makes it so players cannot win wars just from ticking war score, you must also be winning via other factors by atleast 25%.</sup>
-- MOBILIZATION_SPEED_RAILS_MULT: 3.0 -> 3.5 :chart_with_upwards_trend: 
+- MOBILIZATION_SPEED_RAILS_MULT **3.0 -> 3.5** :chart_with_upwards_trend: 
 <br /><sup>Small buff to high tech nations / Railroads</sup>
 - Gas changes
-  - Defines GAS_ATTACK_MODIFIER: 3 -> 1
+  - Defines GAS_ATTACK_MODIFIER **3 -> 1**
   <br /><sup>Reintroduces randomness to Gas and Gas defense by nerfing its overall impact, allowing Gas to be relevant again.</sup>
   - Invention
     - Gas Attack discover chance if at war **0 -> 5%** :new:
     - Gas Defense discover chance if at war with someone with gas attack **5 -> 11%** :chart_with_upwards_trend:
 - Forts activate at Strategic Mobility instead of Post Napoleonic Thought
 - Infiltration does not award a fort level
-- Steamers technology unlocks 1836 -> 1840
-- Iron Steamers technology unlocks 1860 -> 1855 
-- Oil Driven Ships technology unlocks 1919 -> 1914
+- Steamers technology unlocks **1836 -> 1840**
+- Iron Steamers technology unlocks **1860 -> 1855**
+- Oil Driven Ships technology unlocks **1919 -> 1914**
 - Mobilization *Economy* Impact added to Jingoism idea 0 -> 25% :new:
-- Mobilization Impact from Jingoism reduced from 400% -> 20% :chart_with_downwards_trend:
-- Mobilization Impact from Pro Military reduced from 300% -> 10%  :chart_with_downwards_trend:
+- Mobilization Impact from Jingoism reduced from **400% -> 20%** :chart_with_downwards_trend:
+- Mobilization Impact from Pro Military reduced from **300% -> 10%**  :chart_with_downwards_trend:
 - Mobilization Impact removed from Anti Military and Pacifism :x:
-- Mobilization Impact added to Equality National value of 65% :new:
-- Mobilization Impact added to Order National value of 100% :new:
-- Mobilization Impact added to Liberty National value of 200% :new:
-- Mobilization *Economy* Impact increased for Liberty National value 0.75 -> 2.25 :chart_with_upwards_trend:
+- Mobilization Impact added to Equality National value of **65%** :new:
+- Mobilization Impact added to Order National value of **100%** :new:
+- Mobilization Impact added to Liberty National value of **200%** :new:
+- Mobilization *Economy* Impact increased for Liberty National value **0.75 -> 2.25** :chart_with_upwads_trend:
 - Added Mobilization Impact increases to the Light Armament line of tech :new:
 
 **Diplomacy**
@@ -67,10 +67,10 @@ straightforward as possible.
     - CANCELASKMILACCESS_DIPLOMATIC_COST
     - GIVEMILACCESS_DIPLOMATIC_COST
     - CANCELGIVEMILACCESS_DIPLOMATIC_COST
-  - BASE_MONTHLY_DIPLOPOINTS: 0.3 -> 0.5 :chart_with_upwards_trend:
+  - BASE_MONTHLY_DIPLOPOINTS **0.3 -> 0.5** :chart_with_upwards_trend:
   <br /><sup>Removes diplo point cost for majority of actions and all player to player interactions, but keeps diplo point cost for actions related to influencing nation s</sup>
-- MAKE_CB_RELATION_LIMIT: 100 -> 120 :chart_with_upwards_trend:
-- LARGE_POPULATION_INFLUENCE_PENALTY: -0.4 -> -0.25 :chart_with_downwards_trend:
+- MAKE_CB_RELATION_LIMIT **100 -> 120** :chart_with_upwards_trend:
+- LARGE_POPULATION_INFLUENCE_PENALTY **-0.4 -> -0.25** :chart_with_downwards_trend:
   <br /><sup>Allows large nations like the Ottomans to still be influenced, even when they scale</sup>
 
 
@@ -108,9 +108,9 @@ straightforward as possible.
   - Steel Factory
     - Goods cost reduced
       - Machine Parts - Iron **200 -> 100** :chart_with_downwards_trend:
-  - Laissez Faire factory output bonus 0.05 -> 0.075 :chart_with_upwards_trend:
-  - Interventionism factory output bonus 0 -> 0.025 :new:
-  - Planned economy factory throughput bonus 0.05 -> 0.075 :chart_with_upwards_trend:
+  - Laissez Faire factory output bonus **0.05 -> 0.075** :chart_with_upwards_trend:
+  - Interventionism factory output bonus **0 -> 0.025** :new:
+  - Planned economy factory throughput bonus **0.05 -> 0.075** :chart_with_upwards_trend:
     
 
 
@@ -125,7 +125,7 @@ straightforward as possible.
   <br /><sup>After a rebellion is being defeated in combat, its pop militancy will be divided by this number.</sup>
   - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: 
   <br /><sup>AI base stubbornness to refuse peace.</sup>
-  - Pacifism now gives -0.05 infamy monthly :new:
+  - Pacifism now gives **-0.05** infamy monthly :new:
   - Disabled pops from building new factories or opening closed factories via economic policy rules :x:
   - Disabled Newspapers :x:
   - Disabled Crises :x:
