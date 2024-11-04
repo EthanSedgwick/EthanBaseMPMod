@@ -73,5 +73,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   <br /><sup>After a rebellion is being defeated in combat, its pop militancy will be divided by this number.</sup>
   - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: 
   <br /><sup>AI base stubbornness to refuse peace.</sup>
-  - Disabled Newspapers
-  - Disabled Crises
+  - Disabled Newspapers :x:
+  - Disabled Crises :x:
