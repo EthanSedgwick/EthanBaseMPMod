@@ -8,8 +8,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1] - yyyy-mm-dd
  
-Here we write upgrading notes for brands. It's a team effort to make them as
-straightforward as possible.
  
 ### Added
 - Added Ethan Leaders
