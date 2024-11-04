@@ -58,7 +58,7 @@ straightforward as possible.
     - CANCELASKMILACCESS_DIPLOMATIC_COST
     - GIVEMILACCESS_DIPLOMATIC_COST
     - CANCELGIVEMILACCESS_DIPLOMATIC_COST
-    - BASE_MONTHLY_DIPLOPOINTS: 0.3 -> 0.5 :chart_with_upwards_trend:
+  - BASE_MONTHLY_DIPLOPOINTS: 0.3 -> 0.5 :chart_with_upwards_trend:
   <br /><sup>Removes diplo point cost for majority of actions and all player to player interactions, but keeps diplo point cost for actions related to influencing nation s</sup>
 - MAKE_CB_RELATION_LIMIT: 100 -> 120 :chart_with_upwards_trend:
 - LARGE_POPULATION_INFLUENCE_PENALTY: -0.4 -> -0.25 :chart_with_downwards_trend:
