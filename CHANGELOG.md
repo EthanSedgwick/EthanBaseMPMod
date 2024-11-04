@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Added Ethan Leaders
   - Takes the PUIR approach of splitting attack and defense into separate columns, and adding colours to good leaders while retaining Vanilla leader distribution
-  - 
+  - Added Peanuts Map Mod and Blue Interface Borders Graphics Packs
 
 
 ### Changed
@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - NAVAL_COMBAT_MAX_TARGETS **6 -> 4** :chart_with_downwards_trend:
   <br /><sup>Makes larger navies of low quality less effective against smaller navies of lower quality. Incentivises high tier ships.</sup>
   
-  Naval changes not yet implemented
+  *Naval changes not yet implemented*
 
 
 **War**
@@ -56,6 +56,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - War Reps total years reduced from **5 -> 2** :chart_with_downwards_trend:
   - Max Warscore from Battles reduced from **50 --> 25** :chart_with_downwards_trend:
   - Releasing nations reduces infamy by **5 -> 2** :chart_with_downwards_trend:
+
 
 **Diplomacy**
 - Diplo points
@@ -128,9 +129,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Pacifism now gives **-0.05** infamy monthly :new:
 
 
-
-
 ### Removed
   - Disabled Newspapers :x:
-  - Disabled Crises :x:#
+  - Disabled Crises :x:
   - Disabled pops from building new factories or opening closed factories via economic policy rules :x:
