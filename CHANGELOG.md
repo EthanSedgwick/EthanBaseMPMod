@@ -50,12 +50,12 @@ straightforward as possible.
   LARGE_POPULATION_INFLUENCE_PENALTY: -0.4 -> -0.25[^5]
 
 - Economy
-  - RGO_SUPPLY_DEMAND_FACTOR_FIRE: **0.4 -> 0.02** <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
-  - MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE: **2 > 9** <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
-  - FACTORY_UPGRADE_EMPLOYEE_FACTOR: **0.8 -> 0.75** <sup>Convenience change</sup>
-  - CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT: **0.7 > 1.1** <sup>Changes aimed to prevent Capitalists from creating new factories</sup>
-  - NONCORE_TAX_PENALTY: **-0.05 -> -0.10**
-  - BASE_COUNTRY_TAX_EFFICIENCY: **0.2 -> 0.22**
+  - RGO_SUPPLY_DEMAND_FACTOR_FIRE: **0.4 -> 0.02** :chart_with_downwards_trend: <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
+  - MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE: **2 > 9** :x: <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
+  - FACTORY_UPGRADE_EMPLOYEE_FACTOR: **0.8 -> 0.75** :chart_with_downwards_trend: <sup>Convenience change</sup>
+  - CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT: **0.7 > 1.1** :x: <sup>Changes aimed to prevent Capitalists from creating new factories</sup>
+  - NONCORE_TAX_PENALTY: **-0.05 -> -0.10** :chart_with_upwards_trend:
+  - BASE_COUNTRY_TAX_EFFICIENCY: **0.2 -> 0.22** :chart_with_upwards_trend:
 
 
 
