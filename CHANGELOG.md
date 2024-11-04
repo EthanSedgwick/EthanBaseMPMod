@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Takes the PUIR approach of splitting attack and defense into separate columns, and adding colours to good leaders while retaining Vanilla leader distribution
   - 
 
- 
+
 ### Changed
 **Navy rework**
 - Defines
@@ -24,8 +24,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - NAVAL_COMBAT_STACKING_TARGET_SELECT **0.2 -> 0.3** :chart_with_upwards_trend:
   - NAVAL_COMBAT_MAX_TARGETS **6 -> 4** :chart_with_downwards_trend:
   <br /><sup>Makes larger navies of low quality less effective against smaller navies of lower quality. Incentivises high tier ships.</sup>
-
-  
 
 
 **War**
@@ -53,6 +51,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Mobilization Impact added to Liberty National value of **200%** :new:
 - Mobilization *Economy* Impact increased for Liberty National value **0.75 -> 2.25** :chart_with_upwads_trend:
 - Added Mobilization Impact increases to the Light Armament line of tech :new:
+
 
 **Diplomacy**
 - Diplo points
@@ -111,14 +110,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Planned economy factory throughput bonus **0.05 -> 0.075** :chart_with_upwards_trend:
     
 
-
-
 **Misc**
   - AI Army Changes
   - AI_CAVALRY_PROPORTION -   **0.15 > 0.1**  :chart_with_downwards_trend:
   - AI_SUPPORT_PROPORTION -   **0.3 -> 0.5**  :chart_with_downwards_trend:
   - AI_SPECIAL_PROPORTION -   **0.15 -> 0**   :chart_with_downwards_trend:
-  <br /><sup>Makes the AI build Reno meta stacks, so they are less like paper tigers.</sup>
+  <br /><sup>Makes the AI build Reno meta stacks, so they are less like paper tigers. Although it is likely these defines don't function.</sup>
   - REDUCTION_AFTER_DEFEAT -  **3.0 > 4.0**   :chart_with_upwards_trend: 
   <br /><sup>After a rebellion is being defeated in combat, its pop militancy will be divided by this number.</sup>
   - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: 
