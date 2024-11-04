@@ -61,11 +61,11 @@ straightforward as possible.
 
 - Misc
   - AI Army Changes[^8]
-  - AI_CAVALRY_PROPORTION   **0.15 > 0.1**  :chart_with_downwards_trend:
-  - AI_SUPPORT_PROPORTION   **0.3 -> 0.5**  :chart_with_downwards_trend:
-  - AI_SPECIAL_PROPORTION   **0.15 -> 0**   :chart_with_downwards_trend:
-  - REDUCTION_AFTER_DEFEAT  **3.0 > 4.0**   :chart_with_upwards_trend: -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
-  - PEACE_BASE_RELUCTANCE   **20 -> 15**    :chart_with_downwards_trend: -- AI base stubbornness to refuse peace
+  - AI_CAVALRY_PROPORTION -   **0.15 > 0.1**  :chart_with_downwards_trend:
+  - AI_SUPPORT_PROPORTION -   **0.3 -> 0.5**  :chart_with_downwards_trend:
+  - AI_SPECIAL_PROPORTION -   **0.15 -> 0**   :chart_with_downwards_trend:
+  - REDUCTION_AFTER_DEFEAT -  **3.0 > 4.0**   :chart_with_upwards_trend:  > After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+  - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: > AI base stubbornness to refuse peace
   - Disabled Newspapers
   - Disabled Crises
 
