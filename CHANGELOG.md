@@ -46,6 +46,15 @@ straightforward as possible.
 - Steamers technology unlocks 1836 -> 1840
 - Iron Steamers technology unlocks 1860 -> 1855 
 - Oil Driven Ships technology unlocks 1919 -> 1914
+- Mobilization *Economy* Impact added to Jingoism idea 0 -> 25% :new:
+- Mobilization Impact from Jingoism reduced from 400% -> 20% :chart_with_downwards_trend:
+- Mobilization Impact from Pro Military reduced from 300% -> 10%  :chart_with_downwards_trend:
+- Mobilization Impact removed from Anti Military and Pacifism :x:
+- Mobilization Impact added to Equality National value of 65% :new:
+- Mobilization Impact added to Order National value of 100% :new:
+- Mobilization Impact added to Liberty National value of 200% :new:
+- Mobilization *Economy* Impact increased for Liberty National value 0.75 -> 2.25 :chart_with_upwads_trend:
+- Added Mobilization Impact increases to the Light Armament line of tech :new:
 
 **Diplomacy**
 - Diplo points
@@ -63,6 +72,7 @@ straightforward as possible.
 - MAKE_CB_RELATION_LIMIT: 100 -> 120 :chart_with_upwards_trend:
 - LARGE_POPULATION_INFLUENCE_PENALTY: -0.4 -> -0.25 :chart_with_downwards_trend:
   <br /><sup>Allows large nations like the Ottomans to still be influenced, even when they scale</sup>
+
 
 **Economy**
   - RGO_SUPPLY_DEMAND_FACTOR_FIRE: **0.4 -> 0.02** :chart_with_downwards_trend: 
