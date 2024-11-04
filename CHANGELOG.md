@@ -43,7 +43,7 @@ straightforward as possible.
     - Gas Defense discover chance if at war with someone with gas attack **5 -> 11%** :chart_with_upwards_trend:
 - Forts activate at Strategic Mobility instead of Post Napoleonic Thought
 - Infiltration does not award a fort level
-- Steamers technology unlocks 1836 -> 1845
+- Steamers technology unlocks 1836 -> 1840
 - Iron Steamers technology unlocks 1860 -> 1855 
 - Oil Driven Ships technology unlocks 1919 -> 1914
 
@@ -98,6 +98,9 @@ straightforward as possible.
   - Steel Factory
     - Goods cost reduced
       - Machine Parts - Iron **200 -> 100** :chart_with_downwards_trend:
+  - Laissez Faire factory output bonus 0.05 -> 0.075 :chart_with_upwards_trend:
+  - Interventionism factory output bonus 0 -> 0.025 :new:
+  - Planned economy factory throughput bonus 0.05 -> 0.075 :chart_with_upwards_trend:
     
 
 
@@ -112,5 +115,7 @@ straightforward as possible.
   <br /><sup>After a rebellion is being defeated in combat, its pop militancy will be divided by this number.</sup>
   - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: 
   <br /><sup>AI base stubbornness to refuse peace.</sup>
-  - Disabled Newspapers
-  - Disabled Crises
+  - Pacifism now gives -0.05 infamy monthly :new:
+  - Disabled pops from building new factories or opening closed factories via economic policy rules :x:
+  - Disabled Newspapers :x:
+  - Disabled Crises :x:
