@@ -53,7 +53,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Mobilization Impact added to Liberty National value of **200%** :new:
   - Mobilization *Economy* Impact increased for Liberty National value **0.75 -> 2.25** :chart_with_upwads_trend:
   - Added Mobilization Impact increases to the Light Armament line of tech :new:
-
+  - War Reps total years reduced from **5 -> 2** :chart_with_downwards_trend:
+  - Max Warscore from Battles reduced from **50 --> 25** :chart_with_downwards_trend:
+  - Releasing nations reduces infamy by **5 -> 2** :chart_with_downwards_trend:
 
 **Diplomacy**
 - Diplo points
@@ -71,6 +73,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - MAKE_CB_RELATION_LIMIT **100 -> 120** :chart_with_upwards_trend:
 - LARGE_POPULATION_INFLUENCE_PENALTY **-0.4 -> -0.25** :chart_with_downwards_trend:
   <br /><sup>Allows large nations like the Ottomans to still be influenced, even when they scale</sup>
+- War Subsidies percent of imports paid for increased from **0.25 -> 0.33** :chart_with_upwards_trend:
 
 
 **Economy**
