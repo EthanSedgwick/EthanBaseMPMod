@@ -50,12 +50,12 @@ straightforward as possible.
   LARGE_POPULATION_INFLUENCE_PENALTY: -0.4 -> -0.25[^5]
 
 - Economy
-  - RGO_SUPPLY_DEMAND_FACTOR_FIRE: 0.4 -> 0.02[^6]
-  - MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE: 2 > 9[^6]
-  - FACTORY_UPGRADE_EMPLOYEE_FACTOR: 0.8 -> 0.75 -- Convenience change
-  - CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT: 0.7 > 1.1[^7]
-  - NONCORE_TAX_PENALTY: -0.05 -> -0.10
-  - BASE_COUNTRY_TAX_EFFICIENCY: 0.2 -> 0.22,
+  - RGO_SUPPLY_DEMAND_FACTOR_FIRE: **0.4 -> 0.02** <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
+  - MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE: **2 > 9** <sup>Gives the user more breathing room to save or maintain their planned economy after electing a liberal party</sup>
+  - FACTORY_UPGRADE_EMPLOYEE_FACTOR: **0.8 -> 0.75** <sup>Convenience change</sup>
+  - CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT: **0.7 > 1.1** <sup>Changes aimed to prevent Capitalists from creating new factories</sup>
+  - NONCORE_TAX_PENALTY: **-0.05 -> -0.10**
+  - BASE_COUNTRY_TAX_EFFICIENCY: **0.2 -> 0.22**
 
 
 
@@ -64,8 +64,8 @@ straightforward as possible.
   - AI_CAVALRY_PROPORTION -   **0.15 > 0.1**  :chart_with_downwards_trend:
   - AI_SUPPORT_PROPORTION -   **0.3 -> 0.5**  :chart_with_downwards_trend:
   - AI_SPECIAL_PROPORTION -   **0.15 -> 0**   :chart_with_downwards_trend:
-  - REDUCTION_AFTER_DEFEAT -  **3.0 > 4.0**   :chart_with_upwards_trend:  > After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
-  - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: > AI base stubbornness to refuse peace
+  - REDUCTION_AFTER_DEFEAT -  **3.0 > 4.0**   :chart_with_upwards_trend: <sup>After a rebellion is being defeated in combat, its pop militancy will be divided by this number.</sup>
+  - PEACE_BASE_RELUCTANCE -   **20 -> 15**    :chart_with_downwards_trend: <sup>AI base stubbornness to refuse peace.</sup>
   - Disabled Newspapers
   - Disabled Crises
 
