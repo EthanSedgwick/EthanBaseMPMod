@@ -53,7 +53,7 @@ straightforward as possible.
 - Mobilization Impact added to Equality National value of 65% :new:
 - Mobilization Impact added to Order National value of 100% :new:
 - Mobilization Impact added to Liberty National value of 200% :new:
-- Mobilization *Economy* Impact increased for Liberty National value 0.75 -> 2.25 :chart_with_upwads_trend:
+- Mobilization *Economy* Impact increased for Liberty National value 0.75 -> 2.25 :chart_with_upwards_trend:
 - Added Mobilization Impact increases to the Light Armament line of tech :new:
 
 **Diplomacy**
