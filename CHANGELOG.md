@@ -32,7 +32,7 @@ straightforward as possible.
 
 **War**
 - TWS_CB_LIMIT_DEFAULT: 100 -> 75 :chart_with_downwards_trend:
-<br /><sup>Makes it so players cannot win wars just off ticking war score, you must also be winning via other factors by atleast 25%.</sup>
+<br /><sup>Makes it so players cannot win wars just from ticking war score, you must also be winning via other factors by atleast 25%.</sup>
 - MOBILIZATION_SPEED_RAILS_MULT: 3.0 -> 3.5 :chart_with_upwards_trend: 
 <br /><sup>Small buff to high tech nations / Railroads</sup>
 - Gas changes
